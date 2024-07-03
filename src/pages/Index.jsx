@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
-import { Image } from "@/components/ui/image";
 
 const Index = () => {
   return (
@@ -20,7 +19,7 @@ const Index = () => {
           </CardHeader>
           <CardContent>
             <div className="flex flex-col md:flex-row items-center">
-              <Image src="/placeholder.svg" alt="Lion in natural habitat" className="w-full md:w-1/2 rounded-lg" />
+              <img src="/placeholder.svg" alt="Lion in natural habitat" className="w-full md:w-1/2 rounded-lg" />
               <p className="mt-4 md:mt-0 md:ml-6">
                 Lions are one of the most iconic animals in the world. They are known for their majestic appearance and social behavior. Lions typically inhabit savannas, grasslands, and open woodlands. They play a crucial role in maintaining the balance of their ecosystem by controlling the population of herbivores.
               </p>
@@ -65,7 +64,7 @@ const Index = () => {
           </CardHeader>
           <CardContent>
             <div className="flex flex-col md:flex-row items-center">
-              <Image src="/placeholder.svg" alt="Lion conservation" className="w-full md:w-1/2 rounded-lg" />
+              <img src="/placeholder.svg" alt="Lion conservation" className="w-full md:w-1/2 rounded-lg" />
               <p className="mt-4 md:mt-0 md:ml-6">
                 Conservation efforts are crucial to protect lions from threats such as habitat loss, human-wildlife conflict, and poaching. Various organizations are working to preserve lion habitats, reduce conflicts with humans, and combat illegal hunting. Supporting these efforts is essential to ensure the survival of lions for future generations.
               </p>
